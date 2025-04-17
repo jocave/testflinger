@@ -1,9 +1,9 @@
 name: Auto-update Charm Libraries
 on:
   workflow_dispatch:
-  schedule:
+  #schedule:
     # Checks regularly the upstream every four hours
-    - cron: "0 */4 * * *"
+    #- cron: "0 */4 * * *"
 
 jobs:
   update-lib:
